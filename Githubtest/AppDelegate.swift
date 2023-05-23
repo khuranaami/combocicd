@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         print("abc")
         print("added new comment")
+        print("added first comment in featurebranch")
         return true
     }
 
