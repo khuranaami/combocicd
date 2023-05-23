@@ -3,11 +3,8 @@
 
 name: Swift
 
-on:
-  pull_request:
-    types:
-      - closed
-  
+on:[push,workflow_dispatch] 
+
 jobs:
   build:
 
