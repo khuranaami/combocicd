@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("added first comment in featurebranch")
         print("Add action file")
         print("Added comment to trigger pull request workflow.     ")
-        print("trigger the workflow")
+        print("trigger the workflow  ")
         return true
     }
 
