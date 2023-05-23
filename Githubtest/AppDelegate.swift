@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("abc")
         print("added new comment")
         print("added first comment in featurebranch")
+        print("Add action file")
         return true
     }
 
