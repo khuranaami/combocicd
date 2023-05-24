@@ -17,5 +17,12 @@ jobs:
     - name: get code
       uses: actions/checkout@v3
     - run : swift --version
-    - run : ls      
+    - run : ls
+    - run : mkdir -p testdir 
+    - run : cp -r GithubtestTests/* testdir
+    - uses: actions/upload-artifact@v3
+      with:
+       name: my-artifact
+       path: testdir
+     
     
